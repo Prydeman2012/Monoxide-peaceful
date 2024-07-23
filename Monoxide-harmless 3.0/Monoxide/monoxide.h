@@ -21,7 +21,7 @@ TimerThread(
 
 VOID
 GetRandomPath(
-	_Inout_ PWSTR szRandom,
+	_Inout_ PWSTR szRandom, 
 	_In_ INT nLength
 );
 
@@ -278,4 +278,4 @@ AUDIO_SEQUENCE AudioSequence14;
 AUDIO_SEQUENCE AudioSequence15;
 AUDIO_SEQUENCE AudioSequence16;
 AUDIO_SEQUENCE FinalAudioSequence;
-AUDIO_SEQUENCE_PARAMS pAudioSequences[25];
+AUDIO_SEQUENCE_PARAMS pAudioSequences[25]; change-mode-to-peaceful
